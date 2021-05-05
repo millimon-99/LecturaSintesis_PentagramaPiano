@@ -1,6 +1,6 @@
 function resp = Verificarmask(m,r,c)
 %Función que verifica que los número a la derecha-izquierda y arriba-abajo
-%de la coordenado (r,c) sean mayores o iguales
+%de la coordenado (r,c) sean mayores
 resp = false;
 [lr,lc] = size(m);
 crO = m(r,c);
